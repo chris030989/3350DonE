@@ -1,0 +1,287 @@
+@charset "utf-8";
+/* CSS Document */
+
+
+body {
+    background-image: url("wood.jpg");
+    background-color: #cccccc;
+	background-repeat: repeat;
+
+
+    font-family: 'Shadows Into Light', cursive;
+	color: white;
+}
+
+
+
+
+
+.logopicture {
+	margin: auto auto;
+    width: 400px;
+}
+
+.logopicture img {
+	max-width: 100%;
+	height: auto;
+}
+
+
+
+
+
+
+
+/*Navigation*/
+
+.navigation li {
+    display:inline-block
+}
+.navigation ul {
+    list-style-type: none;
+    margin: 30;
+    padding: 0;
+    overflow: hidden;
+    background-color: #333;
+}
+
+
+.navigation {text-align: center}
+
+.navigation li a {
+    display: inline-block;
+
+    text-align: center;
+    padding: 20px 60px;
+    text-decoration: underline;
+	color: white;
+}
+.navigation a {
+	font-size:24px;
+}
+
+.navigation li a:hover {
+    background-color: #111;
+}
+
+
+
+/*Home Code*/
+.texthome1 {
+	max-width: 1300px;
+	width: 400px;
+
+	display:-webkit-flex;
+	flex-direction: row;
+
+}
+
+
+.texthome {
+	display:flex;
+	flex: 1;
+}
+
+.texthome p {
+
+}
+.subscribe {
+  display:-webkit-flex;
+
+  flex-direction: column;
+
+	max-width: 300px;
+
+
+}
+
+/*Menu Code*/
+
+.textmenu {
+	flex: 1;
+	order: 1;
+
+
+
+}
+
+
+.flex-container {
+	display:-webkit-flex;
+	display: flex;
+	max-width: 1000px;
+	flex-direction: row;
+	justify-content: center;
+	margin: 20px auto 0 auto;
+	padding: 20px 40px;
+
+}
+
+.menu-section {
+	flex: 1;
+	order: 2;
+
+    }
+
+
+
+
+/*Perfromances Code*/
+
+.textperformances {
+    width: 400px;
+
+	color: white;
+}
+.calendar {
+	position:absolute;
+    top:620px;
+    right:10px;
+	padding:90px;
+}
+
+
+/*Jobs Code*/
+.form {
+	width: 400px;
+
+	color: white;
+	font-size:18px;
+}
+
+.jobstext {
+	width: 400px;
+
+	color: white;
+	font-size:18px;
+	position:absolute;
+    top:690px;
+    right:10px;
+
+}
+
+
+
+
+/*Directions Code*/
+.flex-direction {
+	display:-webkit-flex;
+	display: flex;
+	-webkit-flex-wrap: wrap;
+    flex-wrap: wrap;
+	width: 400px;
+
+	color: white;
+
+}
+
+/*Credits Code*/
+
+
+
+
+/*Footer*/
+
+footer {
+
+   background:#333;
+   color: white;
+   font-size: 18px;
+}
+
+
+
+
+/* Smartphones (portrait and landscape) ----------- */
+@media only screen and (max-width : 480px) {
+/* Styles */
+.logopicture {
+    max-width:30%;
+	height: auto;
+}
+.navigation {
+    width:auto;
+	color: white;
+    padding: 9px;
+    border: none;
+    cursor: pointer;
+	margin: auto;
+	}
+
+
+
+
+.navigation li a {
+  font-size: 14px;
+}
+
+
+  .texthome1 {
+    display:-webkit-flex;
+  	flex-direction: column;
+	height: 20%;
+	width: auto;
+	margin: auto;
+	font-size:10px;
+	}
+
+
+  .texthome p {
+    flex: 1;
+    order: 1;
+	height:50px;
+
+  }
+.subscribe {
+  flex:2;
+  order: 2;
+	height: 5%;
+	width: 10%;
+	font-size:9px;
+	padding: 10%;
+
+}
+
+.footer1 p {
+	font-size: 7px;
+
+}
+}
+/* iPads (portrait and landscape) ----------- */
+@media only screen and (max-width : 768px) {
+/* Styles */
+.logopicture {
+    max-width:50%;
+	height: auto;
+}
+.navigation {
+    width:100%;
+    float:none;
+	}
+.navigation ul  { display: auto; }
+.nav li { display: inline-block; }
+
+  .texthome {
+	height: 20%;
+	width: auto;
+	margin: auto;
+	font-size:10px;
+  }
+  .texthome p {
+	height:20px;
+
+  }
+.subscribe {
+	height: 5%;
+	width: 10%;
+	font-size:9px;
+	padding: 25%;
+}
+
+
+
+
+/* Desktops and laptops ----------- */
+@media only screen  and (max-width : 1224px) {
+/* Styles */
+}
